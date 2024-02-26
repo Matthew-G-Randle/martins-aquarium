@@ -53,12 +53,12 @@ export const holyFishList = () => {
         htmlString += `<section class="fish card">
             <div><img  class="fish__image image--card" src="${fish.imgurl}" width="500" height="400"/></div>
             <aside>
-            <div class="fish__name">${fish.name}</div>
-            <div class="fish__species">${fish.species}</div>
-            <div class="fish__length">${fish.length}</div>
-            <div class="fish__location">${fish.harvestLocation}</div>
-            <div class="fish__diet">${fish.diet}</div>
-            <div class="fish__tip">${fish.tip}</div>
+            <div class="fish__name">Divine Name :${fish.name}</div>
+            <div class="fish__species">Divine Species : ${fish.species}</div>
+            <div class="fish__length">Divine Length :${fish.length}</div>
+            <div class="fish__location">Divine Location${fish.harvestLocation}</div>
+            <div class="fish__diet">Divine Diet : ${fish.diet}</div>
+            <div class="fish__tip">Divine Tip :${fish.tip}</div>
             </aside>
         </section>
 `
@@ -80,15 +80,15 @@ export const soldierFishList = () => {
 
         // Why is there a backtick used for this string?
         //Backtick is used so that we can use variables inside the string.
-        htmlString += `<section class="fish card">
+        htmlString += `<section class="soldierFishCard">
             <div><img  class="fish__image image--card" src="${fish.imgurl}" width="500" height="400"/></div>
             <aside>
-            <div class="fish__name">${fish.name}</div>
-            <div class="fish__species">${fish.species}</div>
-            <div class="fish__length">${fish.length}</div>
-            <div class="fish__location">${fish.harvestLocation}</div>
-            <div class="fish__diet">${fish.diet}</div>
-            <div class="fish__tip">${fish.tip}</div>
+            <div class="fish__name">name :${fish.name}</div>
+            <div class="fish__species">spec : ${fish.species}</div>
+            <div class="fish__length">leng:${fish.length}</div>
+            <div class="fish__location">harv spot:${fish.harvestLocation}</div>
+            <div class="fish__diet">diet:${fish.diet}</div>
+            <div class="fish__tip"> tip :${fish.tip}</div>
             </aside>
         </section>
 `
@@ -110,15 +110,15 @@ export const demonFishList = () => {
 
         // Why is there a backtick used for this string?
         //Backtick is used so that we can use variables inside the string.
-        htmlString += `<section class="fish card">
-            <div><img  class="fish__image image--card" src="${fish.imgurl}" width="500" height="400"/></div>
+        htmlString += `<section class="demonFishCard">
+            <div><img  class="fish__image image--card" src="${fish.imgurl}" /></div>
             <aside>
-            <div class="fish__name">${fish.name}</div>
-            <div class="fish__species">${fish.species}</div>
-            <div class="fish__length">${fish.length}</div>
-            <div class="fish__location">${fish.harvestLocation}</div>
-            <div class="fish__diet">${fish.diet}</div>
-            <div class="fish__tip">${fish.tip}</div>
+            <div class="fish__name">Demon name:${fish.name}</div>
+            <div class="fish__species">Demon species:${fish.species}</div>
+            <div class="fish__length">Demon length:${fish.length}</div>
+            <div class="fish__location">Demon habitat:${fish.harvestLocation}</div>
+            <div class="fish__diet">Demon diet:${fish.diet}</div>
+            <div class="fish__tip">Demon tip:${fish.tip}</div>
             </aside>
         </section>
 `
